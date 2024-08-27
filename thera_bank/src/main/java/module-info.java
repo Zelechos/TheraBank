@@ -1,16 +1,16 @@
-module org.bank.thera_bank {
+module com.bank.therabank {
     requires javafx.controls;
     requires javafx.fxml;
-    requires javafx.web;
+    requires de.jensd.fx.glyphs.fontawesome;
+    requires java.sql;
+    requires org.xerial.sqlitejdbc;
 
-    requires org.controlsfx.controls;
-    requires com.dlsc.formsfx;
-    requires net.synedra.validatorfx;
-    requires org.kordamp.ikonli.javafx;
-    requires org.kordamp.bootstrapfx.core;
-    requires eu.hansolo.tilesfx;
-    requires com.almasb.fxgl.all;
-
-    opens org.bank.thera_bank to javafx.fxml;
-    exports org.bank.thera_bank;
+    opens com.bank.therabank to javafx.fxml;
+    exports com.bank.therabank;
+    exports com.bank.therabank.Controllers;
+    exports com.bank.therabank.Controllers.Admin;
+    exports com.bank.therabank.Controllers.Client;
+    exports com.bank.therabank.Controllers.Observer;
+    exports com.bank.therabank.Models;
+    exports com.bank.therabank.Views;
 }
