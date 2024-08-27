@@ -1,8 +1,8 @@
-# Banking Activity Tracker [v1.0.0]
+# TheraBank [v1.0.0]
 
 ## Descripción del Proyecto
 
-**Banking Activity Tracker** es una aplicación de escritorio desarrollada en Java que permite a los usuarios gestionar sus cuentas bancarias y realizar un seguimiento de todas sus transacciones. La aplicación utiliza JavaFX para la interfaz gráfica y SQLite como base de datos para almacenar la información relacionada con cuentas y transacciones.
+**TheraBank** es una aplicación de escritorio desarrollada en Java que permite a los usuarios gestionar sus cuentas bancarias y realizar un seguimiento de todas sus transacciones. La aplicación utiliza JavaFX para la interfaz gráfica y SQLite como base de datos para almacenar la información relacionada con cuentas y transacciones.
 
 ## Características
 
