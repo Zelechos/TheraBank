@@ -1,0 +1,61 @@
+/* -fx-background-color: #2ea043;  GREEN GITHUB*/
+/* -fx-background-color: #8957E5; VIOLET GITHUB*/
+/* -fx-background-color: #21262D; GRAY GITHUB*/
+
+.login_container {
+  -fx-background-color: #0d1117;
+}
+
+.login_logo_container {
+  -fx-background-color: #212832f2;
+  -fx-alignment: center;
+}
+
+.login_logo_container Text {
+  -fx-font-size: 2em;
+  -fx-fill: #c9d1d9;
+}
+
+.login_logo_container FontAwesomeIconView {
+  -fx-fill: #c9d1d9;
+}
+
+/* Account Selector Choice Box Styles */
+.account_selector {
+  -fx-background-color: #21262d;
+}
+
+.account_selector .label {
+  -fx-text-fill: #c9d1d9;
+  -fx-font-size: 1.1em;
+}
+
+.account_selector .arrow {
+  -fx-background-color: #c9d1d9;
+}
+
+#choice-box-popup-menu {
+  -fx-background-color: #8957e5;
+}
+
+/* Login Form Styles */
+.login_form_container {
+    -fx-spacing : 15;
+    -fx-alignment : top_left;
+}
+
+.login_form_container Label{
+    -fx-font-size : 1.1em;
+    -fx-font-weight : bold;
+}
+
+.login_form_container {
+    -fx-spacing : 15;
+    -fx-alignment : top_left;
+}
+    
+
+
+
+
+
